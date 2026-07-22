@@ -559,3 +559,67 @@ footer {
     }
 
 }
+
+/* SECCIÓN COMPARTIR */
+
+.compartir {
+
+    text-align: center;
+
+    padding: 80px 20px;
+
+    background-color: #101010;
+
+}
+
+
+.compartir h2 {
+
+    color: #a8d500;
+
+    font-size: 35px;
+
+    margin-bottom: 20px;
+
+}
+
+
+.compartir p {
+
+    color: #ccc;
+
+    font-size: 18px;
+
+    margin-bottom: 30px;
+
+}
+
+
+.btn-compartir {
+
+    background-color: #ff7300;
+
+    color: white;
+
+    border: none;
+
+    padding: 18px 35px;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+}
+
+
+.btn-compartir:hover {
+
+    transform: scale(1.05);
+
+}
