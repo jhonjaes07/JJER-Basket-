@@ -1,0 +1,561 @@
+/* CONFIGURACIÓN GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #0b0b0b;
+
+    color: white;
+
+}
+
+
+/* ENCABEZADO */
+
+.hero {
+
+    min-height: 100vh;
+
+    background:
+
+    linear-gradient(
+        rgba(0, 0, 0, 0.75),
+        rgba(0, 0, 0, 0.9)
+    ),
+
+    radial-gradient(
+        circle at right,
+        #333 0%,
+        #0b0b0b 60%
+    );
+
+}
+
+
+/* NAVEGACIÓN */
+
+.navbar {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 25px 8%;
+
+    border-bottom: 1px solid #333;
+
+}
+
+
+.navbar h2 {
+
+    color: #ff7300;
+
+}
+
+
+.btn-nav {
+
+    text-decoration: none;
+
+    color: white;
+
+    background-color: #ff7300;
+
+    padding: 12px 25px;
+
+    border-radius: 25px;
+
+    font-weight: bold;
+
+}
+
+
+/* HERO */
+
+.hero-content {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    max-width: 1200px;
+
+    margin: auto;
+
+    padding: 100px 30px;
+
+}
+
+
+.hero-text {
+
+    width: 55%;
+
+}
+
+
+.etiqueta {
+
+    color: #a8d500;
+
+    font-weight: bold;
+
+    margin-bottom: 20px;
+
+}
+
+
+h1 {
+
+    font-size: 65px;
+
+    line-height: 1;
+
+    margin-bottom: 25px;
+
+}
+
+
+h1 span {
+
+    display: block;
+
+    color: #ff7300;
+
+}
+
+
+.hero-text p {
+
+    font-size: 20px;
+
+    line-height: 1.6;
+
+    color: #cccccc;
+
+}
+
+
+.botones {
+
+    margin-top: 35px;
+
+    display: flex;
+
+    gap: 15px;
+
+}
+
+
+.btn-principal,
+.btn-whatsapp {
+
+    text-decoration: none;
+
+    padding: 16px 25px;
+
+    border-radius: 5px;
+
+    font-weight: bold;
+
+}
+
+
+.btn-principal {
+
+    background-color: #ff7300;
+
+    color: white;
+
+}
+
+
+.btn-whatsapp {
+
+    background-color: #a8d500;
+
+    color: black;
+
+}
+
+
+/* IMAGEN / ELEMENTO VISUAL */
+
+.hero-image {
+
+    width: 40%;
+
+    text-align: center;
+
+    padding: 80px 20px;
+
+    background: linear-gradient(
+        135deg,
+        #ff7300,
+        #a8d500
+    );
+
+    border-radius: 50% 10% 50% 10%;
+
+    transform: rotate(3deg);
+
+}
+
+
+.hero-image h2 {
+
+    font-size: 30px;
+
+    color: #111;
+
+    transform: rotate(-3deg);
+
+}
+
+
+.balon {
+
+    font-size: 130px;
+
+}
+
+
+/* INFORMACIÓN */
+
+.info {
+
+    padding: 80px 8%;
+
+    text-align: center;
+
+}
+
+
+.info h2,
+.beneficios h2 {
+
+    font-size: 38px;
+
+    margin-bottom: 50px;
+
+    color: #ff7300;
+
+}
+
+
+.cards {
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 25px;
+
+}
+
+
+.card {
+
+    background-color: #181818;
+
+    padding: 30px 20px;
+
+    border-radius: 10px;
+
+    border-top: 4px solid #a8d500;
+
+    transition: 0.3s;
+
+}
+
+
+.card:hover {
+
+    transform: translateY(-10px);
+
+}
+
+
+.icono {
+
+    font-size: 45px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.card h3 {
+
+    color: #ff7300;
+
+    margin-bottom: 15px;
+
+}
+
+
+.card p {
+
+    color: #ccc;
+
+    line-height: 1.5;
+
+}
+
+
+/* BENEFICIOS */
+
+.beneficios {
+
+    padding: 80px 8%;
+
+    background-color: #151515;
+
+    text-align: center;
+
+}
+
+
+.beneficios-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 30px;
+
+}
+
+
+.beneficios-grid div {
+
+    padding: 25px;
+
+}
+
+
+.beneficios-grid span {
+
+    font-size: 50px;
+
+}
+
+
+.beneficios-grid h3 {
+
+    color: #a8d500;
+
+    margin: 15px 0;
+
+}
+
+
+.beneficios-grid p {
+
+    color: #bbb;
+
+    line-height: 1.5;
+
+}
+
+
+/* CONTACTO */
+
+.contacto {
+
+    text-align: center;
+
+    padding: 100px 20px;
+
+    background:
+
+    linear-gradient(
+        rgba(255, 115, 0, 0.85),
+        rgba(255, 115, 0, 0.85)
+    );
+
+}
+
+
+.contacto h2 {
+
+    font-size: 42px;
+
+    color: #111;
+
+    margin-bottom: 20px;
+
+}
+
+
+.contacto p {
+
+    max-width: 650px;
+
+    margin: auto;
+
+    color: #222;
+
+    font-size: 18px;
+
+}
+
+
+.btn-contacto {
+
+    display: inline-block;
+
+    margin-top: 30px;
+
+    padding: 20px 40px;
+
+    background-color: #111;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 8px;
+
+    font-size: 18px;
+
+}
+
+
+.btn-contacto strong {
+
+    font-size: 30px;
+
+    color: #a8d500;
+
+}
+
+
+/* FOOTER */
+
+footer {
+
+    text-align: center;
+
+    padding: 30px;
+
+    background-color: #050505;
+
+    color: #aaa;
+
+    line-height: 2;
+
+}
+
+
+/* DISEÑO PARA CELULARES */
+
+@media (max-width: 800px) {
+
+
+    .navbar {
+
+        padding: 20px;
+
+    }
+
+
+    .navbar h2 {
+
+        font-size: 16px;
+
+    }
+
+
+    .hero-content {
+
+        flex-direction: column;
+
+        padding: 60px 20px;
+
+    }
+
+
+    .hero-text {
+
+        width: 100%;
+
+        text-align: center;
+
+    }
+
+
+    h1 {
+
+        font-size: 42px;
+
+    }
+
+
+    .hero-text p {
+
+        font-size: 17px;
+
+    }
+
+
+    .botones {
+
+        justify-content: center;
+
+        flex-direction: column;
+
+    }
+
+
+    .hero-image {
+
+        width: 90%;
+
+        margin-top: 50px;
+
+    }
+
+
+    .cards {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .beneficios-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .info h2,
+    .beneficios h2 {
+
+        font-size: 28px;
+
+    }
+
+
+    .contacto h2 {
+
+        font-size: 30px;
+
+    }
+
+}
